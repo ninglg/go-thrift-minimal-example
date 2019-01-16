@@ -1,7 +1,5 @@
 namespace go example
-namespace php example
 namespace cpp example
-namespace java example
 
 struct Data {
     1: string text

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ThriftDemo/go-example"
+	"ThriftDemo/gen-go/example"
 	"fmt"
 	"git.apache.org/thrift.git/lib/go/thrift"
 	"log"
