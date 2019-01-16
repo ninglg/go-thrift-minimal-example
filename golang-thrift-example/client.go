@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ThriftDemo/example"
+	"ThriftDemo/go-example"
 	"fmt"
 	"git.apache.org/thrift.git/lib/go/thrift"
 	"log"
@@ -10,7 +10,7 @@ import (
 
 const (
 	ClientHost = "localhost"
-	ClientPort = "8090"
+	ClientPort = "8099"
 )
 
 func main() {

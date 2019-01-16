@@ -1,7 +1,7 @@
 package main
 
 import (
-	"ThriftDemo/example"
+	"ThriftDemo/go-example"
 	"fmt"
 	"git.apache.org/thrift.git/lib/go/thrift"
 	"log"
@@ -19,7 +19,7 @@ func (fdi *FormatDataImpl) DoFormat(data *example.Data) (r *example.Data, err er
 
 const (
 	ServerHost = "localhost"
-	ServerPort = "8090"
+	ServerPort = "8099"
 )
 
 func main() {
